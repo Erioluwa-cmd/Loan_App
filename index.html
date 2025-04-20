@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    
+    <header>
+        <span class="header-span">
+            <img src="./loan.png" alt="" width="30">
+            <h1>CCA LoanApp</h1>
+        </span>
+
+        <nav>
+            <a href=""><img src="./Home.png" alt="" width="30">Home</a>
+            <a href=""><img src="./about.png" alt=""  width="30">About Us</a>
+            <a href=""><img src="./calculate_loan.png" alt=""  width="30">Calculate Loan</a>
+            <a href=""><img src="./setting.png" alt=""  width="30">Setting</a>
+            <a href=""><img src="./login.png" alt=""  width="30">Login</a>
+            <a href=""><img src="./account.png" alt="" width="30">Account</a>
+        </nav>
+
+        <span class="menu-btn"></span>
+    </header>
+    <main >
+        <section>
+        <div></div>
+       <video src="loan_video.mp4" muted autoplay loop ></video>
+
+
+    <div class="calculate">
+        <h1>Calculate Loan</h1>
+    </div>
+
+    <div class="anchor">
+        <img src="./facebook.png" alt="" width="20">
+        <img src="./x.png" alt=""  width="20">
+        <img src="./youtube.png" alt=""  width="20">
+        <img src="./linkedin.png" alt="" width="20">
+        <img src="./instagram.png" alt="" width="20">
+    </div>
+</section>
+    <form>
+        <fieldset>
+            <legend>rate:20%</legend>
+            <label>
+                Borrowed Amount
+                <input type="number" placeholder="e.g  100000" class="input">
+            </label>
+            <label class="select">Payment Duration</label>
+            <select class="Payment">
+                <option value="--">--</option>
+                <option value="3-months">3 months</option>
+                <option value="6-months">6 months</option>
+                <option value="12-months">12 months</option>
+                <option value="18-months">18 months</option>
+                <option value="24-months">24 months</option>
+            </select>
+        </fieldset>
+        <h3>
+            <span class="calculate-btn">calculate→</span>
+            <span class="clear-btn">Clear→</span>
+        </h3>
+    </form>
+
+        <article>
+        <img src="./close.png" alt="" width="30"  class="close-btn">
+
+        <div  class="a">
+            <h1>Borrowed Amount:</h1>  <span class="b-amount"></span>
+        </div>
+
+       
+        <h2>Thank you for using this app😊</h2>
+    
+
+    <div class="b">
+        <h1>interest:</h1>  <span class="i-amount"></span>
+    </div>
+
+    <div class="c">
+        <h1>Amount:</h1>  <span class="amount"></span>
+    </div>
+
+</article>
+    </main>
+    <footer>
+        <p>&copy;Copyright <span class="year"></span>. All Reserved. Powered by Erioluwa Code 
+        </p>
+    </footer>
+
+
+    <script  src="app.js"></script>
+</body>
+</html>
